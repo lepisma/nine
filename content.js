@@ -1,6 +1,6 @@
 // Main script injected in pages
 
-var disabled = true;
+var disabled = false;
 var masterListener = new window.keypress.Listener();
 var listener = new window.keypress.Listener();
 
@@ -315,6 +315,3 @@ function ins(ch) {
         element.value += ch;
     }
 };
-
-// Start stopped
-listener.stop_listening();
